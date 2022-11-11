@@ -5,4 +5,4 @@ UserParameter=icecast.global.sources,/usr/local/scripts/zabbix/icestats.sh sourc
 UserParameter=icecast.source.listeners[*],/usr/local/scripts/zabbix/icestats.sh mount-listeners $1
 UserParameter=icecast.source.peak_listeners[*],/usr/local/scripts/zabbix/icestats.sh peak-listeners $1
 UserParameter=icecast.source.slow_listeners[*],/usr/local/scripts/zabbix/icestats.sh mount-slow_listeners $1
-
+UserParameter=icecast.source.out_bitrate[*],/usr/local/scripts/zabbix/icestats.sh mount-out_bitrate $1
