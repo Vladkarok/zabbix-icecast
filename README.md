@@ -36,6 +36,7 @@ You can use the following keys for monitoring.
 * ``icecast.source.listeners[*]``
 * ``icecast.source.peak_listeners[*]``
 * ``icecast.source.slow_listeners[*]``
+* ``icecast.source.out_bitrate[*]``
 
 In the ``icecast.source.*`` items the first parameter ($1) is the name of an icecast mountpoint
 
